@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>test</title>
+  <style>
+    div {
+      line-height: 0;
+      text-align: center;
+    };
+  </style>
+  <script>
+    function test() {
+      // 1段目
+      var arr1 = [
+      // 0 ぶちぬき小
+      [
+      "1_0_0.png",
+      "1_0_1.png",
+      "1_0_2.png",
+      "1_0_3.png",
+      "1_0_4.png",
+      "1_0_5.png",
+      ],
+      // 1 ぶちぬき中
+      [
+      "1_1_0.png",
+      "1_1_1.png",
+      "1_1_2.png",
+      "1_1_3.png",
+      "1_1_4.png",
+      "1_1_5.png",
+      ],
+      // 2 ぶちぬき大
+      [
+      "1_2_0.png",
+      "1_2_1.png",
+      "1_2_2.png",
+      "1_2_3.png",
+      "1_2_4.png",
+      "1_2_5.png",
+      ],
+      // 3 1段目小
+      [
+      "1_3_0.png",
+      "1_3_1.png",
+      "1_3_2.png",
+      "1_3_3.png",
+      "1_3_4.png",
+      "1_3_5.png",
+      ],
+      // 4 1段目中
+      [
+      "1_4_0.png",
+      "1_4_1.png",
+      "1_4_2.png",
+      "1_4_3.png",
+      "1_4_4.png",
+      "1_4_5.png",
+      ],
+      // 5 1段目大
+      [
+      "1_5_0.png",
+      "1_5_1.png",
+      "1_5_2.png",
+      "1_5_3.png",
+      "1_5_4.png",
+      "1_5_5.png",
+      ],
+      ];
+      var random1 = Math.floor(Math.random() * arr1.length);
+      var random2 = Math.floor(Math.random() * arr1[random1].length);
+      var id1 = document.getElementById("1");
+      id1.src = arr1[random1][random2];
+      var id2 = document.getElementById("2");
+      id2.src = "";
+      var id3 = document.getElementById("3");
+      id3.src = "";
+      // 3段目
+      if (
+      random1 === 3
+      ) {
+        var arr3 = [
+        "3_2_0.png", //0
+        "3_2_1.png", //1
+        "3_2_2.png", //2
+        "3_2_3.png", //3
+        "3_2_4.png", //4
+        "3_2_5.png", //5
+        "3_2_5.png", //6
+        "3_3_0.png", //7
+        "3_3_1.png", //8
+        "3_3_2.png", //9
+        "3_3_3.png", //10
+        "3_3_4.png", //11
+        "3_3_5.png", //12
+        "3_4_0.png", //13
+        "3_4_1.png", //14
+        "3_4_2.png", //15
+        "3_4_3.png", //16
+        "3_4_4.png", //17
+        "3_4_5.png", //18
+        "3_5_0.png", //19
+        "3_5_1.png", //20
+        "3_5_2.png", //21
+        "3_5_3.png", //22
+        "3_5_4.png", //23
+        "3_5_5.png", //24
+        ];
+        var random3 = Math.floor(Math.random() * arr3.length);
+        id3.src = arr3[random3];
+      } else if (
+      random1 === 4
+      ) {
+        var arr3 = [
+        "3_1_0.png", //0
+        "3_1_1.png", //1
+        "3_1_2.png", //2
+        "3_1_3.png", //3
+        "3_1_4.png", //4
+        "3_1_5.png", //5
+        "3_1_5.png", //6
+        "3_3_0.png", //7
+        "3_3_1.png", //8
+        "3_3_2.png", //9
+        "3_3_3.png", //10
+        "3_3_4.png", //11
+        "3_3_5.png", //12
+        "3_4_0.png", //13
+        "3_4_1.png", //14
+        "3_4_2.png", //15
+        "3_4_3.png", //16
+        "3_4_4.png", //17
+        "3_4_5.png", //18
+        "3_5_0.png", //19
+        "3_5_1.png", //20
+        "3_5_2.png", //21
+        "3_5_3.png", //22
+        "3_5_4.png", //23
+        "3_5_5.png", //24
+        ];
+        var random3 = Math.floor(Math.random() * arr3.length);
+        id3.src = arr3[random3];
+      } else if (
+      random1 === 5
+      ) {
+        var arr3 = [
+        "3_0_0.png", //0
+        "3_0_1.png", //1
+        "3_0_2.png", //2
+        "3_0_3.png", //3
+        "3_0_4.png", //4
+        "3_0_5.png", //5
+        "3_0_5.png", //6
+        "3_3_0.png", //7
+        "3_3_1.png", //8
+        "3_3_2.png", //9
+        "3_3_3.png", //10
+        "3_3_4.png", //11
+        "3_3_5.png", //12
+        "3_4_0.png", //13
+        "3_4_1.png", //14
+        "3_4_2.png", //15
+        "3_4_3.png", //16
+        "3_4_4.png", //17
+        "3_4_5.png", //18
+        "3_5_0.png", //19
+        "3_5_1.png", //20
+        "3_5_2.png", //21
+        "3_5_3.png", //22
+        "3_5_4.png", //23
+        "3_5_5.png", //24
+        ];
+        var random3 = Math.floor(Math.random() * arr3.length);
+        id3.src = arr3[random3];
+      } else if (
+      random1 === 0
+      ) {
+        var arr3 = [
+        "3_5_0.png",
+        "3_5_1.png",
+        "3_5_2.png",
+        "3_5_3.png",
+        "3_5_4.png",
+        "3_5_5.png",
+        "3_5_5.png",
+        ];
+        var random3 = Math.floor(Math.random() * arr3.length);
+        id3.src = arr3[random3];
+      } else if (
+      random1 === 1
+      ) {
+        var arr3 = [
+        "3_4_0.png",
+        "3_4_1.png",
+        "3_4_2.png",
+        "3_4_3.png",
+        "3_4_4.png",
+        "3_4_5.png",
+        "3_4_5.png",
+        ];
+        var random3 = Math.floor(Math.random() * arr3.length);
+        id3.src = arr3[random3];
+      } else if (
+      random1 === 2
+      ) {
+        var arr3 = [
+        "3_3_0.png",
+        "3_3_1.png",
+        "3_3_2.png",
+        "3_3_3.png",
+        "3_3_4.png",
+        "3_3_5.png",
+        "3_3_5.png",
+        ];
+        var random3 = Math.floor(Math.random() * arr3.length);
+        id3.src = arr3[random3];
+      }
+      // 2段目
+      if (
+      random1 === 3 &&
+      7 <= random3 &&
+      random3 <= 12
+      ) {
+        var arr2 = [
+        "2_0-5_0.png",
+        "2_0-5_1.png",
+        "2_0-5_2.png",
+        "2_0-5_3.png",
+        "2_0-5_4.png",
+        "2_0-5_5.png",
+        "2_0-5_5.png",
+        "2_0-5_5.png",
+        ];
+        var random4 = Math.floor(Math.random() * arr2.length);
+        id2.src = arr2[random4];
+      } else if (
+      random1 === 3 &&
+      13 <= random3 &&
+      random3 <= 18
+      ) {
+        var arr2 = [
+        "2_1-5_0.png",
+        "2_1-5_1.png",
+        "2_1-5_2.png",
+        "2_1-5_3.png",
+        "2_1-5_4.png",
+        "2_1-5_5.png",
+        "2_1-5_5.png",
+        "2_1-5_5.png",
+        ];
+        var random4 = Math.floor(Math.random() * arr2.length);
+        id2.src = arr2[random4];
+      } else if (
+      random1 === 3 &&
+      19 <= random3 &&
+      random3 <= 24
+      ) {
+        var arr2 = [
+        "2_1-4_0.png",
+        "2_1-4_1.png",
+        "2_1-4_2.png",
+        "2_1-4_3.png",
+        "2_1-4_4.png",
+        "2_1-4_5.png",
+        "2_1-4_5.png",
+        "2_1-4_5.png",
+        ];
+        var random4 = Math.floor(Math.random() * arr2.length);
+        id2.src = arr2[random4];
+      } else if (
+      random1 === 4 &&
+      7 <= random3 &&
+      random3 <= 12
+      ) {
+        var arr2 = [
+        "2_1-5_0.png",
+        "2_1-5_1.png",
+        "2_1-5_2.png",
+        "2_1-5_3.png",
+        "2_1-5_4.png",
+        "2_1-5_5.png",
+        "2_1-5_5.png",
+        "2_1-5_5.png",
+        ];
+        var random4 = Math.floor(Math.random() * arr2.length);
+        id2.src = arr2[random4];
+      } else if (
+      random1 === 4 &&
+      13 <= random3 &&
+      random3 <= 18
+      ) {
+        var arr2 = [
+        "2_1-4_0.png",
+        "2_1-4_1.png",
+        "2_1-4_2.png",
+        "2_1-4_3.png",
+        "2_1-4_4.png",
+        "2_1-4_5.png",
+        "2_1-4_5.png",
+        "2_1-4_5.png",
+        ];
+        var random4 = Math.floor(Math.random() * arr2.length);
+        id2.src = arr2[random4];
+      } else if (
+      random1 === 4 &&
+      19 <= random3 &&
+      random3 <= 24
+      ) {
+        var arr2 = [
+        "2_1-3_0.png",
+        "2_1-3_1.png",
+        "2_1-3_2.png",
+        "2_1-3_3.png",
+        "2_1-3_4.png",
+        "2_1-3_5.png",
+        "2_1-3_5.png",
+        "2_1-3_5.png",
+        ];
+        var random4 = Math.floor(Math.random() * arr2.length);
+        id2.src = arr2[random4];
+      } else if (
+      random1 === 5 &&
+      7 <= random3 &&
+      random3 <= 12
+      ) {
+        var arr2 = [
+        "2_1-4_0.png",
+        "2_1-4_1.png",
+        "2_1-4_2.png",
+        "2_1-4_3.png",
+        "2_1-4_4.png",
+        "2_1-4_5.png",
+        "2_1-4_5.png",
+        "2_1-4_5.png",
+        ];
+        var random4 = Math.floor(Math.random() * arr2.length);
+        id2.src = arr2[random4];
+      } else if (
+      random1 === 5 &&
+      13 <= random3 &&
+      random3 <= 18
+      ) {
+        var arr2 = [
+        "2_1-3_0.png",
+        "2_1-3_1.png",
+        "2_1-3_2.png",
+        "2_1-3_3.png",
+        "2_1-3_4.png",
+        "2_1-3_5.png",
+        "2_1-3_5.png",
+        "2_1-3_5.png",
+        ];
+        var random4 = Math.floor(Math.random() * arr2.length);
+        id2.src = arr2[random4];
+      } else if (
+      random1 === 5 &&
+      19 <= random3 &&
+      random3 <= 24
+      ) {
+        var arr2 = [
+        "2_2-3_0.png",
+        "2_2-3_1.png",
+        "2_2-3_2.png",
+        "2_2-3_3.png",
+        "2_2-3_4.png",
+        "2_2-3_5.png",
+        "2_2-3_5.png",
+        "2_2-3_5.png",
+        ];
+        var random4 = Math.floor(Math.random() * arr2.length);
+        id2.src = arr2[random4];
+      }
+    }
+  </script>
+</head>
+<body>
+  <div>
+    <img src="わる.png" onclick="test()" width="10%"><br />
+    <img id="1" src="" width="50%"><br />
+    <img id="2" src="" width="50%"><br />
+    <img id="3" src="" width="50%"><br />
+  </div>
+</body>
+</html>
